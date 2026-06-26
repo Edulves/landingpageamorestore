@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+    --color-surface-tint: #7b5455;
+    --color-background: #fbf9f9;
+    --color-on-tertiary-fixed: #1b1c1b;
+    --color-error-container: #ffdad6;
+    --color-surface-container-high: #e9e8e7;
+    --color-on-primary-fixed: #2f1314;
+    --color-on-primary-container: #5d3a3b;
+    --color-on-primary-fixed-variant: #603d3e;
+    --color-inverse-on-surface: #f2f0f0;
+    --color-tertiary-container: #b1b0ae;
+    --color-secondary-fixed: #e4e2e1;
+    --color-on-secondary-fixed-variant: #474747;
+    --color-primary-container: #d4a5a5;
+    --color-surface: #fbf9f9;
+    --color-on-secondary-container: #656464;
+    --color-surface-variant: #e3e2e2;
+    --color-on-tertiary: #ffffff;
+    --color-surface-container-lowest: #ffffff;
+    --color-on-secondary: #ffffff;
+    --color-outline: #827473;
+    --color-surface-container-highest: #e3e2e2;
+    --color-primary-fixed: #ffdad9;
+    --color-on-error: #ffffff;
+    --color-tertiary: #5e5e5d;
+    --color-outline-variant: #d4c2c2;
+    --color-primary-fixed-dim: #ecbbba;
+    --color-inverse-primary: #ecbbba;
+    --color-on-surface-variant: #504444;
+    --color-secondary: #5f5e5e;
+    --color-surface-dim: #dbdad9;
+    --color-error: #ba1a1a;
+    --color-secondary-container: #e4e2e1;
+    --color-surface-container: #efeded;
+    --color-on-primary: #ffffff;
+    --color-inverse-surface: #303031;
+    --color-surface-bright: #fbf9f9;
+    --color-surface-container-low: #f5f3f3;
+    --color-on-tertiary-fixed-variant: #464746;
+    --color-primary: #7b5455;
+    --color-tertiary-fixed: #e4e2e0;
+    --color-tertiary-fixed-dim: #c8c6c4;
+
+    --font-inter: "Inter", sans-serif;
+    --font-manrope: "Manrope", sans-serif;
+    --font-LibreCaslonText: "Libre Caslon Text", sans-serif;
+}
+
+body {
+    background-color: #fbf9f9;
+    color: #1b1c1c;
+    overflow-x: hidden;
+}
+.hero-gradient {
+    background: linear-gradient(to right, rgba(251, 249, 249, 0.9) 30%, rgba(251, 249, 249, 0) 100%);
+}
+@media (max-width: 768px) {
+    .hero-gradient {
+        background: linear-gradient(to top, rgba(251, 249, 249, 1) 20%, rgba(251, 249, 249, 0) 100%);
+    }
+}
