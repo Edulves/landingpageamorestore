@@ -1,6 +1,7 @@
 import NavBarH from "../components/NavBarH";
-import Hero from "../components/Hero";
-import BrandingPhilosophy from "../components/BrandingPhilosophy";
+import Hero from "../components/componentshome/Hero";
+import BrandingPhilosophy from "../components/componentshome/BrandingPhilosophy";
+import Destaques from "../components/componentshome/Destaques";
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <div className="mt-20">
                 <Hero />
                 <BrandingPhilosophy />
+                <Destaques />
             </div>
         </div>
     );

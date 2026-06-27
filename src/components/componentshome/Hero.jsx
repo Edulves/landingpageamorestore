@@ -10,15 +10,15 @@ const Hero = () => {
                         Exclusividade Feminina
                     </span>
                     <h1 className="text-5xl leading-14 font-LibreCaslonText text-on-background mb-6 tracking-tight">Elegância que Inspira</h1>
-                    <p className="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-md">
+                    <p className="font-manrope text-lg leading-7 text-on-surface-variant mb-10 max-w-md">
                         Uma curadoria sofisticada pensada para a mulher contemporânea que não abre mão do conforto e do caimento impecável. Descubra a
                         beleza em cada detalhe.
                     </p>
-                    <div className="flex gap-4">
-                        <button className="bg-[#2D2D2D] text-white px-8 py-4 font-label-sm text-label-sm uppercase tracking-widest hover:bg-primary transition-all duration-300">
+                    <div className="flex gap-4 font-manrope text-xs leading-4 font-bold tracking-widest">
+                        <button className="bg-[#2D2D2D] text-white px-8 py-4 uppercase hover:bg-primary transition-all duration-300">
                             Ver Coleção
                         </button>
-                        <button className="border border-[#2D2D2D] text-[#2D2D2D] px-8 py-4 font-label-sm text-label-sm uppercase tracking-widest hover:bg-[#2D2D2D] hover:text-white transition-all duration-300">
+                        <button className="border border-[#2D2D2D] text-[#2D2D2D] px-8 py-4 uppercase hover:bg-[#2D2D2D] hover:text-white transition-all duration-300">
                             Explorar
                         </button>
                     </div>
