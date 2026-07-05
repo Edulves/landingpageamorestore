@@ -1,16 +1,18 @@
 import NavBarH from "../components/NavBarH";
 import Hero from "../components/componentshome/Hero";
 import BrandingPhilosophy from "../components/componentshome/BrandingPhilosophy";
-import Destaques from "../components/componentshome/Destaques";
+import OurProducts from "../components/componentshome/OurProducts";
+import Footer from "../components/componentshome/Footer";
 
 const Home = () => {
     return (
         <div>
             <NavBarH />
-            <div className="mt-20">
+            <div>
                 <Hero />
                 <BrandingPhilosophy />
-                <Destaques />
+                <OurProducts />
+                <Footer />
             </div>
         </div>
     );
